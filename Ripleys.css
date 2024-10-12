@@ -1,0 +1,178 @@
+.accesso-frame {
+    width: 100%;
+    height: 400px; /* Set a fixed height for the iframe */
+  }
+  body {
+    background-color: #93c2eb; /* Background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-image: url('transparent-background-of-underwater-blue-ocean-ai-generated-pro-photo.jpeg'); /* Background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* No repeat of the background image */
+  }
+  .carousel-inner img {
+    width: 100%; /* Full width of the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.carousel-item {
+    position: relative; /* Necessary for positioning captions */
+}
+
+.carousel-caption {
+    position: absolute; /* Positioning captions */
+    bottom: 20px; /* Space from the bottom */
+    left: 15px; /* Space from the left */
+    right: 15px; /* Space from the right */
+    color: white; /* Caption text color */
+}
+/* About Section Styling */
+#about {
+/* Light background color for the section */
+  padding: 5rem 0; /* Padding for top and bottom */
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  color: #555; /* Dark color for the heading */
+  margin-bottom: 1.5rem;
+}
+
+/* Justified content */
+.about-content {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #555; /* Gray color for text */
+  text-align: justify; /* Ensure justified alignment */
+ 
+}
+#about img {
+  max-width: 100%;
+  height: auto; /* Ensure the image is responsive */
+  border-radius: 10px; /* Slight rounding of the image corners */
+}
+.gallery-section {
+  padding: 20px;
+  text-align: center; /* Center the content */
+}
+
+.gallery-header {
+  margin-bottom: 20px; /* Space below the header */
+
+}
+
+.gallery-container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center the content */
+  flex-wrap: wrap; /* Allow wrapping of cards */
+  gap: 10px; /* Space between cards */
+}
+
+.gallery-cards {
+  display: flex; /* Use flexbox for horizontal scrolling */
+  justify-content: flex-start; /* Align to the start */
+  overflow-x: auto; /* Allow horizontal scrolling */
+}
+.card-content h5 {
+  text-align: center; /* Center the h5 text */
+  margin: 0; /* Remove default margin for a cleaner look */
+}
+.card {
+    width: 16rem; /* Fixed width for cards */
+    border: 1px solid #93c2eb; /* Light border */
+    margin-right: 10px; /* Space between cards */
+    padding: 10px; /* Inner padding for cards */
+    flex-shrink: 0; /* Prevent cards from shrinking */
+    background: transparent; /* Make card background transparent */
+    backdrop-filter: blur(10px); /* Optional: Blur effect for background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+}
+.card-image {
+  width: 100%; /* Full width for images */
+  height: 200px; /* Fixed height for images */
+
+  object-fit: cover; /* Cover the area without distortion */
+}
+
+.card-content {
+  text-align: justify; /* Justify text in card content */
+
+}
+.map {
+    border-radius: 5px; /* Rounded corners for the iframe */
+    border: 0; /* No border */
+    height: 250px; /* Fixed height */
+}
+.contact-info {
+  text-align: left; /* Align text to the left */
+}
+
+.contact-info h2 {
+
+  margin-bottom: 1rem; /* Space below the heading */
+}
+
+.contact-info p {
+  font-size: 1rem; /* Adjust font size for the paragraphs */
+  margin: 0.5rem 0; /* Space above and below the paragraphs */
+}
+
+.contact-info i {
+  margin-right: 0.5rem; /* Space between the icon and the text */
+  color: #555; /* Color for the icons (Bootstrap primary color) */
+}
+.about-us {
+  text-align: left;
+}
+
+.about-us p {
+  margin-left: 0;
+}
+
+.text-reset {
+  color: inherit; /* This makes the link inherit the parent text color */
+  text-decoration: none; /* Removes underline from links */
+}
+
+.text-reset:hover {
+  text-decoration: underline; /* Adds underline on hover */
+}
+.footer {
+  width: 100%;
+  position: relative;
+  left: 0;
+  right: 0;
+  background-color: #343a40; /* Dark background color */
+  color: white; /* White text color */
+}
+
+.py-4 {
+  padding-top: 2rem; /* Add top padding */
+  padding-bottom: 2rem; /* Add bottom padding */
+}
+
+.text-center {
+  text-align: center; /* Center the text */
+}
+
+.social-links {
+  display: flex; /* Use flexbox for social links */
+  justify-content: center; /* Center the items */
+}
+
+.social-links a {
+  color: white; /* White color for links */ 
+  margin: 0 1rem; /* Margin on the left and right */
+  text-decoration: none; /* Remove underline */
+}
+
+.social-links a:hover {
+  opacity: 0.8; /* Slightly fade on hover */
+}
+
+.mt-3 {
+  margin-top: 1rem; /* Add top margin */
+}
+
+
