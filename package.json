@@ -1,22 +1,32 @@
+// {
+//   "name": "ripleys",
+//   "version": "1.0.0",
+//   "description": "Simple website using Html,css and Bootstrap.",
+//   "main": "server.js",
+//   "scripts": {
+//     "test": "node server.js"
+//   },
+//   "repository": {
+//     "type": "git",
+//     "url": "git+https://github.com/neeva124/Ripleys.git"
+//   },
+//   "author": "Neeva",
+//   "license": "ISC",
+//   "bugs": {
+//     "url": "https://github.com/neeva124/Ripleys/issues"
+//   },
+//   "homepage": "https://github.com/neeva124/Ripleys#readme",
+//   "dependencies": {
+//     "express": "^4.21.1"
+//   }
+// }
 {
   "name": "ripleys",
   "version": "1.0.0",
-  "description": "Simple website using Html,css and Bootstrap.",
-  "main": "server.js",
+  "description": "Simple website using HTML, CSS, and Bootstrap.",
   "scripts": {
-    "test": "npm start"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/neeva124/Ripleys.git"
+    "start": "vercel dev"
   },
   "author": "Neeva",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/neeva124/Ripleys/issues"
-  },
-  "homepage": "https://github.com/neeva124/Ripleys#readme",
-  "dependencies": {
-    "express": "^4.21.1"
-  }
+  "license": "ISC"
 }
