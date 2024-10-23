@@ -1,23 +1,27 @@
-
 {
   "version": 2,
-  "rewrites": [
+  "builds": [
     {
-      "src": "/(.*)",
-      "dest": "/server.js"
+      "src": "/server.js",
+      "use": "@vercel/node"
     }
   ],
-  "headers": [
+  "rewrites": [
     {
       "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src 'self' https://vercel.live; object-src 'none';"
-        }
-      ]
+      "destination": "/server.js"
+    }
+  ],
+ "headers": [
+  {
+    "source": "/(.*)",
+    "headers": [
+      {
+        "key": "Content-Security-Policy",
+        "value": "default-src 'self'; script-src 'self' https://vercel.live; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; object-src 'none';"
+    }
+    
+    ]
     }
   ]
 }
-
-  

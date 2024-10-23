@@ -2,7 +2,7 @@
   "name": "ripleys",
   "version": "1.0.0",
   "description": "Simple website using Html,css and Bootstrap.",
-  "main": "server.js",
+  "main":  "/server.js",
   "scripts": {
     "test": "node server.js"
   },
