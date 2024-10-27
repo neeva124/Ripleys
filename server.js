@@ -4,6 +4,7 @@ const path = require('path');
 const app = express();
 
 // Serve static files (CSS, images, etc.)
+app.use('/images', express.static('/public/css'));
 app.use(express.static('public'));
 
 // Route to serve the HTML file
