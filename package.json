@@ -2,7 +2,8 @@
   "name": "ripleys",
   "version": "1.0.0",
   "description": "Simple website using Html,css and Bootstrap.",
-  "main":  "/server.js",
+  "type": "module",
+  "main": "/server.js",
   "scripts": {
     "test": "node server.js"
   },
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/neeva124/Ripleys#readme",
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "express": "^4.21.1"
   }
 }
