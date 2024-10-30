@@ -15,6 +15,7 @@ app.use('/node_modules', express.static(path.join(__dirname, 'node_modules')));
 
 // Route to serve the HTML file
 app.get('/', (req, res) => {
+  // Remove the 'cd' that was mistakenly included
   res.sendFile(path.join(__dirname, 'public', 'ripleys.html'));
 });
 
