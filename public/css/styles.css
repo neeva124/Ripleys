@@ -11,6 +11,7 @@
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* No repeat of the background image */
   }
+
   .carousel-inner img {
     width: 100%; /* Full width of the container */
     height: auto; /* Maintain aspect ratio */
