@@ -1,14 +1,5 @@
 import express from 'express';
 import path from 'path';
-// // Import Bootstrap CSS
-// import 'bootstrap/dist/css/bootstrap.min.css';
-
-// // Import Bootstrap JavaScript (includes Popper for tooltips)
-// import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-
-
-
-
 import { fileURLToPath } from 'url';
 const app = express();
 

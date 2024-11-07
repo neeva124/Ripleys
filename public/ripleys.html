@@ -1,141 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8 ">
-  
-  <!-- <meta http-equiv="Content-Security-Policy" content="
-  default-src 'self'; frame-src 'self' https://www.google.com;
-  style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://maxcdn.bootstrapcdn.com; 
-  font-src 'self' https://cdnjs.cloudflare.com https://maxcdn.bootstrapcdn.com data:; 
-  img-src 'self' data:; 
-  script-src 'self' ' https://cdnjs.cloudflare.com https://maxcdn.bootstrapcdn.com;"> -->
-  <!-- <meta http-equiv="Content-Security-Policy" content="
-  script-src 'self'  https://cdnjs.cloudflare.com https://maxcdn.bootstrapcdn.com https://cdn.jsdelivr.net;
-  frame-src 'self' https://www.google.com https://m-raca.secure-cdn.na.accessoticketing.com;
-  style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://maxcdn.bootstrapcdn.com;   
-  font-src 'self' https://cdnjs.cloudflare.com https://maxcdn.bootstrapcdn.com data:; 
-
-  img-src 'self' data:; 
- "> -->
-
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Explorer - Ripley's Aquarium</title>
-  <!-- Bootstrap CSS -->
- <!-- Bootstrap CSS -->
- <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
-
-<!-- Font Awesome for icons -->
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+  <!-- <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
 </head>
-
-<!-- <link rel="stylesheet" href="./css/all.min.css"> -->
-
-
-<!-- MDB UI Kit CSS -->
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/8.0.0/mdb.min.css"> -->
-
-<!-- Custom CSS -->
-
-
-
 <link rel="stylesheet" href="./css/bootstrap.min.css">
 <link rel="stylesheet" href="./css/all.min.css">
 <link rel="stylesheet" href="./css/styles.css">
-
-
-
-<!-- website url: https://ripleysaquariumcanada.vercel.app/ -->
 </head>
+
 <body
   style="background-attachment: fixed; background-color: #93c2eb;margin: 0; padding: 0;background-image: url('./images/transparent-background-of-underwater-blue-ocean-ai-generated-pro-photo.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;  text-align: justify; ">
   <!-- Navbar -->
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
     <a class="navbar-brand" href="#">RIPLEY'S</a>
-    
+
     <!-- Navbar Toggler: Only visible on mobile (hidden on lg and above) -->
-    <button class="navbar-toggler d-lg-none ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler d-lg-none ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    
+
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
           <a class="nav-link active" href="#carouselExample">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active"href="#about">ABOUT</a>
+          <a class="nav-link active" href="#about">ABOUT</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active"href="#gallery">GALLERY</a>
+          <a class="nav-link active" href="#gallery">GALLERY</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="#contact">MORE INFO</a>
         </li>
       </ul>
- 
+
       <a href="https://www.ripleys.com/attractions/ripleys-aquarium-of-canada" target="_blank" class="ms-lg-auto">
         <button type="button" class="btn btn-primary">
           Buy Tickets
-        </button> 
-       </a>
+        </button>
+      </a>
     </div>
   </nav>
-  
-  
-  
-        
- <!-- Modal -->
-        <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Purchase Tickets</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <div class="accesso-frame">
-                  <iframe title="Accesso E-commerce Store Overlay" id="override" allowfullscreen=""
-                    webkitallowfullscreen="" mozallowfullscreen="" msallowfullscreen=""
-                    allow="geolocation; microphone; camera; payment" frameborder="0" onload="this.contentWindow.focus()"
-                    width="100%" height="100%"
-                    src="https://m-raca.secure-cdn.na.accessoticketing.com/packageList/keyword/Tickets?_cid=2114500369.1728497476">
-                  </iframe>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-              </div>
-            </div>
-          </div>
-        </div> -->
-      </div>
-    </div>
+ </div>
+  </div>
   </nav>
   <!-- End Navbar -->
-
-
-  <!-- End Navbar -->
-<!-- Carousel wrapper -->
+ <!-- Carousel wrapper -->
   <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
- <!-- Inner slides -->
+    <!-- Inner slides -->
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="./images/aqua.jpg" class="d-block w-100" alt="Aqualife">
         <div class="carousel-caption d-none d-md-block">
-          <!-- <h5>First Slide</h5> -->
-          <!-- <p>Experience the beauty of aquatic life at Ripley's Aquarium.</p> -->
         </div>
       </div>
     </div>
   </div>
   <!-- End Carousel wrapper -->
-<!-- About Section -->
+  <!-- About Section -->
   <section id="about" class="py-5">
     <div class="container">
       <div class="row align-items-center">
@@ -157,7 +86,7 @@
     </div>
   </section>
   <!-- End About Section -->
-<!-- Gallery Section -->
+  <!-- Gallery Section -->
   <section id="gallery" class="gallery-section">
     <div class="gallery-header">
       <h2>Major Attractions</h2>
@@ -172,10 +101,10 @@
                 bioluminescence, captivating visitors with their serene beauty.</p>
             </div>
           </div>
- <!-- Card 2 -->
- <div class="card">
-  <img src="./images/star.jpg" alt="Starfish" class="card-image">
-  <div class="card-content">
+          <!-- Card 2 -->
+          <div class="card">
+            <img src="./images/star.jpg" alt="Starfish" class="card-image">
+            <div class="card-content">
               <h5>Starfish</h5>
               <p>Vibrant starfish, with unique shapes and colors, demonstrate the importance of marine biodiversity
                 while intriguing guests with their fascinating adaptations.</p>
@@ -186,7 +115,8 @@
             <img src="./images/tail_fish.jpg" alt="Stingrays" class="card-image">
             <div class="card-content">
               <h5>Stingrays</h5>
-              <p>At Ripley's Aquarium, visitors can observe graceful stingrays up close and even interact with them in touch tanks, offering a unique, hands-on experience.</p>
+              <p>At Ripley's Aquarium, visitors can observe graceful stingrays up close and even interact with them in
+                touch tanks, offering a unique, hands-on experience.</p>
             </div>
           </div>
           <!-- Card 4 -->
@@ -215,7 +145,7 @@
     </div>
     </div>
   </section>
- <!-- End Gallery Section -->
+  <!-- End Gallery Section -->
   <!-- Fnd us -->
   <section id="contact" class="py-5">
     <div class="container">
@@ -226,14 +156,14 @@
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.28788350162!2d-79.38917712399831!3d43.64217847110273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d5d5b6045b%3A0x8daf1a19298c213d!2sRipley&#39;s%20Aquarium%20of%20Canada!5e0!3m2!1sen!2sca!4v1728493462678!5m2!1sen!2sca"
             width="100%" height="250" class="map" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
-   <!-- Contact Us Section -->
+        <!-- Contact Us Section -->
         <div class="col-md-4 contact-info">
           <h2>Contact Us</h2>
           <p><i class="fas fa-home me-3"></i> 288 Bremner Blvd, Toronto, ON M5V 3L9</p>
           <p><i class="fas fa-envelope me-3"></i> contact@ripleys.com</p>
           <p><i class="fas fa-phone me-3"></i> (647) 351-3474</p>
         </div>
-  <!-- About Us Section -->
+        <!-- About Us Section -->
         <div class="col-md-4 about-us">
           <h2>Get in Touch</h2>
           <p><a href="https://www.ripleyentertainment.com" class="text-reset">Corporate</a></p>
@@ -248,7 +178,7 @@
     </div>
   </section>
   <!-- footer -->
-     <footer class="bg-dark text-white py-4 footer">
+  <footer class="bg-dark text-white py-4 footer">
     <div class="text-center p-4">
       <div class="text-center">
         <p>Follow Us</p>
@@ -270,20 +200,8 @@
       </div>
     </div>
   </footer>
-<!--    Bootstrap JS and dependencies  -->
 
-
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-wpzdg3ZlYRdGvR1KwXwpDRvnlyMi4Tm6jY4aF1y8AKBkt5jBLV6FvMcBdV4FvPQF" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/8.0.0/mdb.min.js"></script>
- Bootstrap 5 JS -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> --> 
-<script src="./bootstrap.bundle.min.js"></script>
-
-
-  <!-- footer -->
-
+  <script src="./bootstrap.bundle.min.js"></script>
+ <!-- footer -->
 </body>
-
 </html>

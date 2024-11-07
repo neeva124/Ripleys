@@ -6,6 +6,7 @@
   }
   body {
     /* background-color: #93c2eb; Background color */
+    color: #555;
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
     background-image: url('transparent-background-of-underwater-blue-ocean-ai-generated-pro-photo.jpeg'); /* Background image */
@@ -100,7 +101,7 @@
 
 .card-content {
   text-align: justify; /* Justify text in card content */
-
+  color: #555;
 }
 .map {
     border-radius: 5px; /* Rounded corners for the iframe */
@@ -176,23 +177,6 @@
 
 .mt-3 {
   margin-top: 1rem; /* Add top margin */
-}
-@media (max-width: 768px) {
-  .navbar-collapse {
-    display: block !important;
-    /* visibility: visible !important; */
-  }
-}
-
-.navbar .btn-right {
-  order: -1; /* Puts the Buy Tickets button at the far left */
-}
-
-/* Display the navbar-toggler only on mobile */
-@media (min-width: 992px) {
-  .navbar-toggler {
-    display: none;
-  }
 }
 
 
