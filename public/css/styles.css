@@ -83,6 +83,7 @@
   margin: 0; /* Remove default margin for a cleaner look */
 }
 .card {
+  color: #555;
     width: 16rem; /* Fixed width for cards */
     border: 1px solid #93c2eb; /* Light border */
     margin-right: 10px; /* Space between cards */
