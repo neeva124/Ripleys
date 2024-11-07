@@ -177,5 +177,25 @@
 .mt-3 {
   margin-top: 1rem; /* Add top margin */
 }
+@media (max-width: 768px) {
+  .navbar-collapse {
+    display: block !important;
+    /* visibility: visible !important; */
+  }
+}
+
+.navbar .btn-right {
+  order: -1; /* Puts the Buy Tickets button at the far left */
+}
+
+/* Display the navbar-toggler only on mobile */
+@media (min-width: 992px) {
+  .navbar-toggler {
+    display: none;
+  }
+}
+
+
+
 
 
